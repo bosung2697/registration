@@ -5,19 +5,19 @@ namespace App;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
-class User extends Authenticatable
+class Admin extends Authenticatable
 {
     use Notifiable;
-    protected $table='users';
+    protected $table='admin';
 
+    protected $guard = 'admin';
     /**
      * The attributes that are mass assignable.
      *
      * @var array
      */
     protected $fillable = [
-        'name', 'phone','birth','summary','classfication','received_date','consulting_count',
-        'paid','consulting_date','event_status','closing',
+        'name', 'email', 'password','password',
     ];
 
     /**
@@ -26,18 +26,12 @@ class User extends Authenticatable
      * @var array
      */
     protected $hidden = [
-        'password', 'remember_token',
+        'remember_token',
     ];
-
 
     public function roles()
     {
         return $this->belongsToMany(Role::class);
-    }
-
-    public function isAdmin()
-    {
-        return ($this->id === 1) ? true : false;
     }
 
     /**
@@ -45,12 +39,18 @@ class User extends Authenticatable
      */
     public function authorizeRoles($roles)
     {
-        if (is_array($roles)) {
-            return $this->hasAnyRole($roles) ||
-                abort(401, 'This action is unauthorized.');
-        }
-        return $this->hasOneRole($roles) ||
-            abort(401, 'This action is unauthorized.');
+//        if (is_array($roles)) {
+//            return $this->hasAnyRole($roles) ||
+//                abort(401, $roles.'는 다음 페이지에 권한이 없습니다.');
+//        }
+        return $roles === 'admin'
+            ? $this->hasRole($roles) || abort(401, 'admin은 다음 페이지에 권한이 없습니다.')
+            : $this->hasRole($roles) || abort(401, 'author는 다음 페이지에 권한이 없습니다.');
+    }
+
+    public function isAdmin()
+    {
+        return ($this-> id === 3|| $this->id === 4) ? true : false;
     }
 
 
@@ -67,16 +67,14 @@ class User extends Authenticatable
      * Check one role
      * @param string $role
      */
-    public function hasOneRole($role)
+    public function hasRole($role)
     {
         return null !== $this->roles()->where('name', $role)->first();
     }
-    public function hasRole($role)
+
+    public function users()
     {
-        if ($this->roles()->where('name', $role)->first()) {
-            return 1;
-        } else {
-            return 0;
-        }
+        return $this->hasmany(User::class);
     }
+
 }

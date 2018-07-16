@@ -9,8 +9,8 @@
 <body>
 <div id="wrapper">
     <div class="navbar">
-        <div class="navbardiv grid-item"><a href="{{ url('admin') }}"
-                                            id="appname">{{ config('app.name','Laravel') }}</a></div>
+        <div class="navbardiv grid-item"><a href="{{ url('admin') }}"id="appname">
+                {{ config('app.name','Laravel') }}</a></div>
         <div id="userdate" class="grid-item">| {{ \Illuminate\Support\Facades\Auth::user()->name }}님 안녕하세요
             / {{ \Carbon\Carbon::now() }}</div>
         <div class="navbardiv grid-item">
@@ -52,19 +52,19 @@
 
     <div class="navlayout">
         <div class="grid-item">
-            @component('components.admin.basicinfo')
+            {{--@component('admin.components.basicinfo')--}}
+            {{--@endcomponent--}}
+            @component('admin.components.userinfo')
             @endcomponent
-            @component('components.admin.userinfo')
+            @component('admin.components.developmentinfo')
             @endcomponent
-            @component('components.admin.developmentinfo')
+            @component('admin.components.judicialinfo')
             @endcomponent
-            @component('components.admin.judicialinfo')
+            @component('admin.components.noticeinfo')
             @endcomponent
-            @component('components.admin.noticeinfo')
+            @component('admin.components.libraryinfo')
             @endcomponent
-            @component('components.admin.libraryinfo')
-            @endcomponent
-            @component('components.admin.communityinfo')
+            @component('admin.components.communityinfo')
             @endcomponent
         </div>
         <div class="grid-item">
@@ -73,7 +73,7 @@
     </div>
 </div>
 <div class="footer">
-    @include('layouts.partials.footer')
+    @include('admin.partials.footer')
 </div>
 @yield('script')
 </body>

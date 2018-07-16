@@ -2,7 +2,7 @@
 <html lang="{{ app()->getLocale() }}">
 <head>
     @yield('style')
-    @include('admin.partials.header')
+    @include('layouts.partials.header')
 </head>
 <body>
 

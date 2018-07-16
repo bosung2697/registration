@@ -19,8 +19,14 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::prefix('admin')->group(function () {
+Route::prefix('/admin')->group(function () {
     Route::get('/', function () {
-        return redirect('admin/dev');
+        return redirect('admin/user');
     });
+    Route::get('/login', 'Auth\AdminLoginController@showLoginForm')->name('admin.login');
+    Route::post('/login', 'Auth\AdminLoginController@login')->name('admin.login.submit');
+    Route::post('/logout', 'Auth\AdminLoginController@logout')->name('admin.logout');
+/*********************************유저 관리***************************************************/
+    Route::get('/user/', 'Admin\User\UserController@index');
+    Route::post('/search_user','Admin\User\UserController@search');
 });
