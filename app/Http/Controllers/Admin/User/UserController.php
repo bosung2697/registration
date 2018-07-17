@@ -30,5 +30,10 @@ class UserController extends Controller
         $data = \App\User::latest()->orderby('id')->paginate(30);
         return view('admin.admin_page.user.user_info.index', compact('data', 'result'));
     }
+    public function show(Request $request, $id)
+    {
+        $data = User::where('id', $id)->first();
+        return view('.admin.admin_page.user.user_info.show', compact('data'));
+    }
 
 }

@@ -27,7 +27,7 @@
                 </thead>
                 <tbody>
                 @forelse($result as $value)
-                <tr class="userinfotable" onclick="tothedetailpage({{$value->id}})">
+                <tr class="userinfotable">
                     <td>{{$value->name}}</td>
                     <td>{{$value->birth}}</td>
                     <td>{{$value->phone}}</td>
@@ -61,7 +61,7 @@
                 </thead>
                 <tbody>
                 @forelse($data as $value)
-                <tr class="userinfotable"  onclick="tothedetailpage({{$value->id}})">
+                <tr class="userinfotable">
                     <td>{{$value->name}}</td>
                     <td>{{$value->birth}}</td>
                     <td>{{$value->phone}}</td>
@@ -83,9 +83,4 @@
             @endif
         </div>
     </div>
-    <script>
-        function tothedetailpage(id) {
-            location.href = "/user/"+id;
-        }
-    </script>
 @endsection

@@ -28,5 +28,6 @@ Route::prefix('/admin')->group(function () {
     Route::post('/logout', 'Auth\AdminLoginController@logout')->name('admin.logout');
 /*********************************유저 관리***************************************************/
     Route::get('/user/', 'Admin\User\UserController@index');
+    Route::get('/user/{id}', 'Admin\User\UserController@show');
     Route::post('/search_user','Admin\User\UserController@search');
 });
