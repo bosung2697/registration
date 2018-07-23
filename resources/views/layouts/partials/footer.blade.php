@@ -1,22 +1,61 @@
 <style>
-    .mainfooter{
-        font-size:0.7vw;
-    }
-    .footerextra{
-        font-size:0.5vw;
+    .footer {
+        display: grid;
+        display: -ms-grid;
+        column-gap: 0;
+        grid-template-columns: 43% 57%;
+        -ms-grid-columns: 4.3fr 0 5.7fr;
+        width: 100%;
+        margin: 1vh 0 2.5vh 0;
+        color: white;
+        height: 13vh;
+        bottom: 10%;
     }
 
+    .footer {
+        background: rgba(25, 25, 25, 0.665);
+
+    }
+
+    .footer > div, .footer > div > div {
+        background: transparent;
+    }
+    .partners{
+        padding:0 9vw;
+        width:100%;
+        justify-content: space-between;
+        display:flex;
+        align-items:center;
+    }
+    .partners>img{
+        width:8%;
+    }
 </style>
-<hr/>
-<div class="mainfooter">
-    <div class="grid-item">개인정보처리방침</div>
-    <div class="grid-item">이용약관</div>
-    <div class="grid-item">사이트맵</div>
-    <div class="grid-item">회사 위치</div>
-    <div class="grid-item">회사 소개</div>
+<div class="partners">
+    <img src="img/link01.png">
+    <img src="img/link02.png">
+    <img src="img/link03.png">
+    <img src="img/link04.png">
+    <img src="img/link09.png">
+    <img src="img/link10.png">
+    <img src="img/link07.png">
+    <img src="img/link08.png">
+    <img src="img/link12.png">
+    <img src="img/link14.JPG">
 </div>
-<div class="footerextra">
-    {{--<p>copyright ⓒ 보상원 2018 All Right Reserved</p>--}}
-    {{--<p>주소 부산광역시 해운대구 우동 1462번지 센텀그린타워 1202호(센텀중앙로78) | 전화 051-912-8585 | 팩스 051-912-8586 | 사업자번호 621-81-95720 | 대표 윤경식</p>--}}
-    {{--<p>온라인 운영대행사 한국부동산자산관리연구원 | 사업자등록번호 114-87-03307 | 주소 서울특별시 강남구 테헤란로82길 15, 1608호</p>--}}
+<div class="footer">
+    <div class="grid-item" style="margin:auto 12% auto auto; text-align:center; display:flex; justify-content: space-between; align-items: center">
+        <div style="width:27%; margin-left:-17%;"><img src="img/footermk.jpg" width="100%"></div>
+        <div>
+        <div style="font-weight:600; font-size:1.7vw; line-height:1;">김영룡 법무사</div>
+        <div style="font-weight:600; font-size:1vw;">(다울합동법무사사무소)</div>
+        </div>
+    </div>
+    <div class="grid-item" style="height: 87%; text-align:left; font-size:0.7vw; margin:auto auto auto 0%;">
+        개인정보처리방침 | 이용약관<br>
+        김영룡법무사 법률사무소 대표법무상 : 김영룡 | 사업자등록번호 : 000-0000-0000<br>
+        서울특별시 서초구 법원로3길 24 두언빌딩 201호 | 문의전화 : 02-563-1231 | fax : 02-0000-0000<br>
+        개인정보척앰자 : 김영룡 | 통신판매신고번호 : 000-0000000<br>
+        Copyright 김영룡법무사 법률사무소 All Rights Reserved.
+    </div>
 </div>

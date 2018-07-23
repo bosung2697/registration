@@ -76,5 +76,25 @@ class Admin extends Authenticatable
     {
         return $this->hasmany(User::class);
     }
+    public function faq_bankruptcy()
+    {
+        return $this->hasmany(FAQ_Bankruptcy::class);
+    }
+    public function faq_registration()
+    {
+        return $this->hasmany(FAQ_Registration::class);
+    }
+    public function faq_rehabilitation()
+    {
+        return $this->hasmany(FAQ_Rehabilitation::class);
+    }
+    public function faq_in_common()
+    {
+        return $this->hasmany(FAQ_InCommon::class);
+    }
+    public function faq_etc()
+    {
+        return $this->hasmany(FAQ_ETC::class);
+    }
 
 }

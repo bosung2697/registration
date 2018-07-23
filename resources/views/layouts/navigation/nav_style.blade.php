@@ -1,26 +1,25 @@
 <style>
-    body, div, html{
-        background-color:white;
+    body, html {
+        background-color: white;
     }
-    .home_search{
+
+    .home_search {
         margin: 0;
-        width:8vw;
-        height: 3vh;
+        width: 76%;
+        height: 100%;
         padding: 0;
         border: none;
     }
 
     .navigation_bar {
-        background-color: white;
         padding: 0 5vw 0 0;
-        border-bottom: 2px solid #f9f8f6;
+        border-bottom: 2px solid #e8e8e8;
         width: 100%;
         height: 100%;
-        display: grid;
-        display: -ms-grid;
-        -ms-grid-columns: 1fr 0 2.5fr;
-        column-gap: 0;
-        grid-template-columns: 28% 72%;
+        background: url("img/profile.png");
+        background-repeat: no-repeat;
+        background-size: 33%;
+
     }
 
     .navigation_bar_contents {
@@ -33,7 +32,13 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 1vw;
+        padding:1vh 4vw 1vh 31vw;
+        font-size: 1.1vw;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .navigation_bar_container>div:hover{
+        color: #43a5cf;
     }
 
     .image_text_container {

@@ -1,5 +1,8 @@
 <style>
 
+    .form_content{
+        padding: 1vh 1vw;
+    }
     body {
         font-family: 'NanumSquare', sans-serif;
     !important margin: 0;
@@ -201,6 +204,11 @@
     .active {
         background-color: #e1e1e1 !important;
         text-decoration: underline;
+    }
+    .current {
+        background-color: #b9b9b9 !important;
+        text-decoration: underline;
+        font-weight:700;
     }
 
     .liactive {

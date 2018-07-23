@@ -17,7 +17,7 @@ class RouteServiceProvider extends ServiceProvider
     protected $namespace = 'App\Http\Controllers';
 
     /**
-     * Define your route model bindings, pattern filters, etc.
+     * Define your route model bindings, pattern filters, ETC.
      *
      * @return void
      */
@@ -45,7 +45,7 @@ class RouteServiceProvider extends ServiceProvider
     /**
      * Define the "web" routes for the application.
      *
-     * These routes all receive session state, CSRF protection, etc.
+     * These routes all receive session state, CSRF protection, ETC.
      *
      * @return void
      */
