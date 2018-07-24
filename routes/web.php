@@ -17,6 +17,7 @@ Route::get('/', function () {
 
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/faq_registration', 'User\FAQ\FAQ_RegistrationController@index');
 
 
 Route::prefix('/admin')->group(function () {

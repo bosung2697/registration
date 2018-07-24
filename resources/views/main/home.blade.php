@@ -6,7 +6,7 @@
         }
 
         .container1 {
-            margin: 2vh 0;
+            margin: 0 0 2vh 0;
             padding: 0 5.5vw;
             display: grid;
             display: -ms-grid;

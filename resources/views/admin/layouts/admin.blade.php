@@ -67,15 +67,7 @@
             {{--@endcomponent--}}
             @component('admin.components.userinfo')
             @endcomponent
-            @component('admin.components.developmentinfo')
-            @endcomponent
-            @component('admin.components.judicialinfo')
-            @endcomponent
-            @component('admin.components.noticeinfo')
-            @endcomponent
             @component('admin.components.faq_list')
-            @endcomponent
-            @component('admin.components.communityinfo')
             @endcomponent
         </div>
         <div class="grid-item">

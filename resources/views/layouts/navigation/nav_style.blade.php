@@ -1,4 +1,24 @@
 <style>
+    .active_nav {
+        color: #74b2e7;
+    }
+
+    .testingimg {
+        width: 100%;
+        height: 100%;
+    }
+
+    @font-face {
+        font-family: 'NanumBarunGothic';
+        src: url('/fonts/NanumBarunGothic.eot');
+        src: url('/fonts/NanumBarunGothic.eot') format('embedded-opentype'),
+        url('/fonts/NanumBarunGothic.woff') format('woff');
+    }
+
+    body, html, div, a, b, i, p {
+        font-family: 'NanumBarunGothic', 'serif';
+    }
+
     body, html {
         background-color: white;
     }
@@ -15,15 +35,17 @@
         padding: 0 5vw 0 0;
         border-bottom: 2px solid #e8e8e8;
         width: 100%;
-        height: 100%;
+        height: 18.5vh;
         background: url("img/profile.png");
         background-repeat: no-repeat;
-        background-size: 33%;
+        background-size: 38.7% 100%;
+        margin: 0 0 2vh 0;
 
     }
 
     .navigation_bar_contents {
         width: 100%;
+        padding: 3.8vh 0;
 
     }
 
@@ -32,12 +54,13 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding:1vh 4vw 1vh 31vw;
-        font-size: 1.1vw;
-        font-weight: 600;
+        padding: 1vh 1.8vw 1vh 34vw;
+        font-size: 1.35vw;
+        font-weight: 500;
         cursor: pointer;
     }
-    .navigation_bar_container>div:hover{
+
+    .navigation_bar_container > div:hover {
         color: #43a5cf;
     }
 
