@@ -45,7 +45,7 @@
 </div>
 <div class="footer">
     <div class="grid-item" style="margin:auto 12% auto auto; text-align:center; display:flex; justify-content: space-between; align-items: center">
-        <div style="width: 35%; margin-left: -5%;"><img src="img/footermk.jpg" width="100%"></div>
+        <div style="width: 46%; margin-left: -41%;"><img src="img/footermk.jpg" width="100%"></div>
         <div>
         <div style="font-weight:500; font-size:1.7vw; line-height:1;">김영룡법무사</div>
         <div style="font-weight:500; font-size:0.94vw;">(다울합동법무사사무소)</div>

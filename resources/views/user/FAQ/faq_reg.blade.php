@@ -13,7 +13,7 @@
             color: #a7a7a7;
             padding: 1vh 6.75vw;
             text-align: left;
-            font-size: 1vw;
+            font-size: 1.11vw;
             font-weight: 500;
         }
 
