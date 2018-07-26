@@ -83,7 +83,7 @@
             @endif
         </div>
     </div>
-    <iframe width="854" height="480" src="https://www.youtube.com/embed/FRxr-9VZY2I" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
     <script>
         function tothedetailpage(id) {
             location.href = "/user/"+id;
