@@ -9,28 +9,28 @@
                 <img src="img/call.png" style="width:38%;">
             </div>
             @forelse($data as $value)
-            <div class="QnA" id='{{$value->id}}'>
-                <div class="questions" onclick="show_answers('{{$value->id}}')">
-                    Q. {{$value->question}}
-                </div>
-                <div class="answers" style="display:none;">
-                    <div>
-                        <p>A. {{$value->answer}}</p>
+                <div class="QnA" id='{{$value->id}}'>
+                    <div class="questions" onclick="show_answers('{{$value->id}}');">
+                        Q. {{$value->question}}
                     </div>
-                    <div class="answers_video">
-                        <iframe width="100%" height="100%" src="{{$value->video_url}}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <div class="answers" style="display:none;">
+                        <div>
+                            <p>A. {{$value->answer}}</p>
+                        </div>
+                        <div class="answers_video">
+                            <iframe width="100%" height="100%" src="{{$value->video_url}}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        </div>
                     </div>
                 </div>
-            </div>
             @empty
                 <div>입력된 정보가 없습니다.</div>
             @endforelse
             <div class="pagination1">
-            @if($data->count())
-                <div class="text-center">
-                    {!! $data->render() !!}
-                </div>
-            @endif
+                @if($data->count())
+                    <div class="text-center">
+                        {!! $data->render() !!}
+                    </div>
+                @endif
             </div>
         </div>
     </div>

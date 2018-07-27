@@ -10,7 +10,7 @@ class FAQ_RegistrationController extends Controller
 {
     public function index()
     {
-        $data = FAQ_Registration::latest()->paginate(12);
+        $data = FAQ_Registration::latest()->paginate(7);
         return view('user.FAQ.faq_reg', compact('data'));
     }
 

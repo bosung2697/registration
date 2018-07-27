@@ -18,6 +18,10 @@ Route::get('/', function () {
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/faq_registration', 'User\FAQ\FAQ_RegistrationController@index');
+Route::get('/faq_rehabilitation', 'User\FAQ\FAQ_RehabilitationController@index');
+Route::get('/faq_bankruptcy', 'User\FAQ\FAQ_BankruptcyController@index');
+Route::get('/faq_in_common', 'User\FAQ\FAQ_In_CommonController@index');
+Route::get('/faq_etc', 'User\FAQ\FAQ_ETCController@index');
 
 
 Route::prefix('/admin')->group(function () {

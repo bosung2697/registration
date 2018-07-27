@@ -1,4 +1,103 @@
 <style>
+
+    .faq {
+        display: grid;
+        display: -ms-grid;
+        -ms-grid-columns: 27.3fr 0 72.7fr;
+        column-gap: 0;
+        grid-template-columns: 27.3% 72.7%;
+
+    }
+
+    .QnA {
+        width: 100%;
+    }
+
+    .questions {
+        word-break:keep-all;
+        color: #a7a7a7;
+        padding:3.5vh 0 1vh 7.76vw;
+        text-align: left;
+        font-size: 1.1vw;
+        font-weight: 500;
+        cursor:pointer;
+    }
+
+    .answers {
+        height:37.5vh;
+        background-color:#FFFFFF;
+        border: 1px solid #d3d3d3;
+        -webkit-box-shadow: 0.1vw 0.3vw 0.5vw #888888;
+        -moz-box-shadow:  0.1vw 0.3vw 0.5vw #888888;
+        box-shadow:  0.1vw 0.3vw 0.5vw #888888;
+        display: grid;
+        display:-ms-grid;
+        grid-template-columns:38% 62%;
+        column-gap: 0;
+        -ms-grid-columns: 3.8fr 0 6.2fr;
+        margin:2vh 0 3vh 0;
+    }
+    .answers>div>p{
+        color: #6d6d6d;
+        margin:0;
+        width:100%;
+        height: 37vh;
+        overflow-y: scroll;
+        padding:5vh 1vw;
+        font-size: 1.1vw;
+        font-weight: 600;
+    }
+    .active_questions{
+        font-size: 1.54vw!important;
+        font-weight: 600!important;
+        color: #727272!important;
+        text-decoration: underline;
+    }
+    .answers_video{
+        width: 100%;
+        height: 37vh;
+        padding: 1.15vh 0.6vw;
+    }
+    .answers_video>iframe{
+        width:100%; height:100%; border: 1px solid #d3d3d3;
+    }
+    /* width */
+    ::-webkit-scrollbar {
+        width: 0.7vw;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: #888;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+
+
+
+    .pagination>li>a, .pagination>li>span{
+        margin: 0 0.8vw;
+    }
+    .text-center{
+        text-align:center;
+        font-size:1vw;
+    }
+    .pagination1{
+        padding:16% 0 5% 0;
+    }
+    .pagination {
+        display: inline-block;
+        list-style: none;
+    }
+
     .active_nav {
         color: #74b2e7;
     }
