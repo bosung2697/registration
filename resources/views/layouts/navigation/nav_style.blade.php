@@ -247,6 +247,7 @@
 
     .tothedetailpage {
         cursor: pointer;
+        width:100%;
     }
 
     .judicialpage_list {

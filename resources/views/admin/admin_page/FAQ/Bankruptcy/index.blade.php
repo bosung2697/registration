@@ -29,19 +29,19 @@
                     <th class="th1 table_question">질문</th>
                     <th class="th2 table_answer">답변</th>
                     <th class="th2 table_video_url">영상</th>
-                    <th class="th2"></th>
+                    <th class="th2 delete_btn"></th>
                 </tr>
                 </thead>
                 <tbody>
                 @forelse($data as $value)
                     <tr class="tothedetailpage"
                         onclick="location.href='{{ url('/admin/faq_bankruptcy/'.$value->id.'/edit') }}'">
-                        <td class="td1">{{$value->id}}</td>
-                        <td class="td1">{{$value->question}}</td>
-                        <td class="td1">{{$value->answer}}</td>
-                        <td class="td1">{{ $value->video_url}}</td>
-                        <td class="td1" onclick="deleting({{ $value->id }})">
-                            <button class="btn btn-delete">삭제하기</button>
+                        <td class="td1 table_id">{{$value->id}}</td>
+                        <td class="td1 table_question"><div>{{$value->question}}</div></td>
+                        <td class="td1 table_answer"><div>{{$value->answer}}</div></td>
+                        <td class="td1 table_video_url"><div>{{ $value->video_url}}</div></td>
+                        <td class="td1 delete_btn" onclick="deleting({{ $value->id }})">
+                            <button class="btn btn-delete">삭제</button>
                         </td>
                     </tr>
                 @empty

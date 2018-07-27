@@ -1,4 +1,41 @@
 <style>
+    .table_question > div,.table_answer > div,.table_video_url > div {
+        width: 19vw;
+        height: 5vh;
+        -ms-text-overflow: ellipsis;
+        text-overflow: ellipsis;
+        word-break: keep-all;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    .table_id {
+        width: 5%;
+    }
+
+    .table_question {
+        width: 30%;
+        word-break: keep-all;
+    }
+
+    .table_answer {
+        width: 30%;
+        -ms-word-break: keep-all;
+        word-break: keep-all;
+
+    }
+
+    .table_video_url {
+        width: 30%;
+    }
+
+    .btn-delete{
+        width:6vw;
+    }
+    .delete_btn {
+        width: 5%;
+    }
+
     .content {
         margin: 1vw 15vw 1vw 15vw;
     }
@@ -53,7 +90,7 @@
     }
 
     .table_footer a {
-        font-size:0.8vw;
+        font-size: 0.8vw;
         border: 1px solid lightgrey;
         color: grey;
         font-weight: 800;
@@ -100,8 +137,8 @@
         justify-content: left;
         text-align: left;
         padding: 2vw 3vw;
-        font-size:0.9vw;
-        font-weight:600;
+        font-size: 0.9vw;
+        font-weight: 600;
         color: dimgrey;
 
     }
@@ -137,8 +174,8 @@
         justify-content: left;
         text-align: left;
         padding: 2vw 3vw;
-        font-size:0.9vw;
-        font-weight:600;
+        font-size: 0.9vw;
+        font-weight: 600;
         color: dimgrey;
 
     }
@@ -174,8 +211,8 @@
         justify-content: left;
         text-align: left;
         padding: 2vw 3vw;
-        font-size:0.9vw;
-        font-weight:600;
+        font-size: 0.9vw;
+        font-weight: 600;
         color: dimgrey;
 
     }
@@ -211,8 +248,8 @@
         justify-content: left;
         text-align: left;
         padding: 2vw 3vw;
-        font-size:0.9vw;
-        font-weight:600;
+        font-size: 0.9vw;
+        font-weight: 600;
         color: dimgrey;
 
     }
@@ -250,8 +287,8 @@
         justify-content: left;
         text-align: left;
         padding: 2vw 3vw;
-        font-size:0.9vw;
-        font-weight:600;
+        font-size: 0.9vw;
+        font-weight: 600;
         color: dimgrey;
 
     }
@@ -297,8 +334,8 @@
         justify-content: left;
         text-align: left;
         padding: 2vw 3vw;
-        font-size:0.9vw;
-        font-weight:600;
+        font-size: 0.9vw;
+        font-weight: 600;
         color: dimgrey;
 
     }
@@ -335,8 +372,8 @@
         justify-content: left;
         text-align: left;
         padding: 2vw 3vw;
-        font-size:0.9vw;
-        font-weight:600;
+        font-size: 0.9vw;
+        font-weight: 600;
         color: dimgrey;
 
     }
@@ -372,8 +409,8 @@
         justify-content: left;
         text-align: left;
         padding: 2vw 3vw;
-        font-size:0.9vw;
-        font-weight:600;
+        font-size: 0.9vw;
+        font-weight: 600;
         color: dimgrey;
 
     }
@@ -388,10 +425,10 @@
         margin: 1vw 5vw;
     }
 
-    .askingpage th, .askingpage td {
+    .askingpage th {
         text-align: center;
         border: solid 1px lightgrey;
-        padding: 1vw;
+        padding: 0.5vw;
     }
 
     .askingpage table {
@@ -440,8 +477,8 @@
         justify-content: left;
         text-align: left;
         padding: 2vw 3vw;
-        font-size:0.9vw;
-        font-weight:600;
+        font-size: 0.9vw;
+        font-weight: 600;
         color: dimgrey;
 
     }
@@ -459,7 +496,7 @@
     .reportpage th, .askingpage td {
         text-align: center;
         border: solid 1px lightgrey;
-        padding: 1vw;
+        padding: 0.7vw;
     }
 
     .reportpage table {
@@ -528,8 +565,8 @@
         justify-content: left;
         text-align: left;
         padding: 2vw 3vw;
-        font-size:0.9vw;
-        font-weight:600;
+        font-size: 0.9vw;
+        font-weight: 600;
         color: dimgrey;
 
     }
