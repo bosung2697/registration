@@ -1,11 +1,37 @@
 <style>
+    .lists > div {
+        text-align: left;
+        padding: 0 2.5vw;
+    }
 
-    .introduction{
-        width:100%;
+    .specialchars{
+        font-size:1.5vw;
+        font-weight:600;
+        padding:1vw;
+        color:#999;
+        margin:0;
     }
-    .introduction>img{
-        width:100%;
+    .lists > div > p > b {
+        padding: 0 0 0 0.51vw;
+        font-size: 1.94vw;
+        color: #3399cc;
     }
+
+    .lists .contents {
+        padding: 0 0 0 2vw;
+        font-size: 1.15vw;
+        font-weight:500;
+        color: #999;
+    }
+
+    .introduction {
+        width: 100%;
+    }
+
+    .introduction > img {
+        width: 100%;
+    }
+
     .page {
         display: grid;
         display: -ms-grid;
@@ -20,53 +46,60 @@
     }
 
     .questions {
-        word-break:keep-all;
+        word-break: keep-all;
         color: #a7a7a7;
-        padding:3.5vh 0 1vh 7.76vw;
+        padding: 3.5vh 0 1vh 7.76vw;
         text-align: left;
         font-size: 1.1vw;
         font-weight: 500;
-        cursor:pointer;
+        cursor: pointer;
     }
 
     .answers {
-        height:37.5vh;
-        background-color:#FFFFFF;
+        height: 37.5vh;
+        background-color: #FFFFFF;
         border: 1px solid #d3d3d3;
         -webkit-box-shadow: 0.1vw 0.3vw 0.5vw #888888;
-        -moz-box-shadow:  0.1vw 0.3vw 0.5vw #888888;
-        box-shadow:  0.1vw 0.3vw 0.5vw #888888;
+        -moz-box-shadow: 0.1vw 0.3vw 0.5vw #888888;
+        box-shadow: 0.1vw 0.3vw 0.5vw #888888;
         display: grid;
-        display:-ms-grid;
-        grid-template-columns:38% 62%;
+        display: -ms-grid;
+        grid-template-columns: 38% 62%;
         column-gap: 0;
         -ms-grid-columns: 3.8fr 0 6.2fr;
-        margin:2vh 0 3vh 0;
+        margin: 2vh 0 3vh 0;
     }
-    .answers>div>p{
+
+    .answers > div > p {
         color: #6d6d6d;
-        margin:0;
-        width:100%;
+        margin: 0;
+        width: 100%;
         height: 37vh;
         overflow-y: scroll;
-        padding:5vh 1vw;
+        padding: 5vh 1vw;
         font-size: 1.1vw;
         font-weight: 600;
     }
-    .active_questions{
-        font-size: 1.54vw!important;
-        font-weight: 600!important;
-        color: #727272!important;
+
+    .active_questions {
+        font-size: 1.54vw !important;
+        font-weight: 600 !important;
+        color: #727272 !important;
         text-decoration: underline;
     }
-    .answers_video{
+
+    .answers_video {
         width: 100%;
         height: 37vh;
         padding: 1.15vh 0.6vw;
     }
-    .answers_video>iframe{
-        width:100%; height:100%; border: 1px solid #d3d3d3;
+
+    .answers_video > iframe {
+        width: 100%;
+        height: 100%;
+        border: 1px solid #d3d3d3;
     }
+
     /* width */
     ::-webkit-scrollbar {
         width: 0.7vw;
@@ -87,18 +120,19 @@
         background: #555;
     }
 
-
-
-    .pagination>li>a, .pagination>li>span{
+    .pagination > li > a, .pagination > li > span {
         margin: 0 0.8vw;
     }
-    .text-center{
-        text-align:center;
-        font-size:1vw;
+
+    .text-center {
+        text-align: center;
+        font-size: 1vw;
     }
-    .pagination1{
-        padding:16% 0 5% 0;
+
+    .pagination1 {
+        padding: 16% 0 5% 0;
     }
+
     .pagination {
         display: inline-block;
         list-style: none;
@@ -155,7 +189,7 @@
     }
 
     .navigation_bar_container {
-        color:#717171;
+        color: #717171;
         width: 100%;
         display: flex;
         justify-content: space-between;
@@ -254,7 +288,7 @@
 
     .tothedetailpage {
         cursor: pointer;
-        width:100%;
+        width: 100%;
     }
 
     .judicialpage_list {
