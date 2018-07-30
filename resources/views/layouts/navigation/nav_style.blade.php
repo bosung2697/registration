@@ -1,6 +1,12 @@
 <style>
 
-    .faq {
+    .introduction{
+        width:100%;
+    }
+    .introduction>img{
+        width:100%;
+    }
+    .page {
         display: grid;
         display: -ms-grid;
         -ms-grid-columns: 27.3fr 0 72.7fr;
@@ -149,6 +155,7 @@
     }
 
     .navigation_bar_container {
+        color:#717171;
         width: 100%;
         display: flex;
         justify-content: space-between;

@@ -14,8 +14,18 @@
 Route::get('/', function () {
     return redirect('/home');
 });
+/******************************************법무사 소개************************************************/
+Route::get('/intro','User\IntroController@intro');
+Route::get('/blog','User\IntroController@blog');
+Route::get('/law_story','User\IntroController@law_story');
+Route::get('/intro_column','User\IntroController@intro_column');
+Route::get('/location','User\IntroController@location');
 
+/******************************************개인파산/회생************************************************/
+Route::get('/bankruptcy','User\BankNRehab\BankNRehabController@bankruptcy');
+Route::get('/rehabilitation','User\BankNRehab\BankNRehabController@rehabilitation');
 
+/******************************************자주하는 질문************************************************/
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/faq_registration', 'User\FAQ\FAQ_RegistrationController@index');
 Route::get('/faq_rehabilitation', 'User\FAQ\FAQ_RehabilitationController@index');
@@ -31,10 +41,12 @@ Route::prefix('/admin')->group(function () {
     Route::get('/login', 'Auth\AdminLoginController@showLoginForm')->name('admin.login');
     Route::post('/login', 'Auth\AdminLoginController@login')->name('admin.login.submit');
     Route::post('/logout', 'Auth\AdminLoginController@logout')->name('admin.logout');
+
 /*********************************유저 관리***************************************************/
     Route::get('/user/', 'Admin\User\UserController@index');
     Route::get('/user/{id}', 'Admin\User\UserController@show');
     Route::post('/search_user','Admin\User\UserController@search');
+
 /*********************************자주하는 질문***************************************************/
 //개인파산
     Route::get('/faq_bankruptcy/', 'Admin\FAQ\FAQ_BankruptcyController@index');

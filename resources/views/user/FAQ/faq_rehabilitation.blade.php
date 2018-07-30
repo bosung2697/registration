@@ -1,10 +1,10 @@
 @extends('layouts.app')
 @section('content')
-    <div class="faq">
-        <div style="padding:0 8.1vw 0 6.2vw;">
+    <div class="page">
+        <div class='grid' style="padding:0 8.1vw 0 6.2vw;">
             @include('layouts.partials.tab.faq_list')
         </div>
-        <div style="width: 63.3%; text-align: center; padding:0;">
+        <div class='grid' style="width: 63.3%; text-align: center; padding:0;">
             <div style="border-bottom: 0.6vw solid #cccccc;">
                 <img src="img/call.png" style="width:38%;">
             </div>
