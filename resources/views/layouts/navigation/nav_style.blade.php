@@ -1,27 +1,87 @@
 <style>
+    .smaller_font{
+       font-weight:500;
+        font-size:0.89vw;
+    }
+    .video_url_page{
+        margin:0;
+        padding:0;
+    }
+    .alphabet_listing{
+        font-size: 1.85vw!important;
+        font-weight: 500!important;
+        color: #ccc!important;
+    }
+    .video_name{
+        color:#3399cc;
+        font-size:0.7vw;
+        border-bottom: 1px solid #3399cc;
+        cursor:pointer;
+    }
+    .video_desc{
+        margin:0 0.5vw;
+    }
+    .background_document{
+        background-image: url(/img/document_img.png);
+        background-repeat: no-repeat;
+        -webkit-background-size: 100%;
+        background-size: 30%;
+        background-position: 92% 22%;
+    }
+    .header_p{
+        margin:0;
+        padding:1vh 0 2.5vh 0;
+    }
     .lists > div {
+        width: 98%;
         text-align: left;
-        padding: 0 2.5vw;
+        padding: 1vh 2.5vw 5vh 2.5vw;
+        word-break: keep-all;
     }
 
-    .specialchars{
-        font-size:1.5vw;
-        font-weight:600;
-        padding:1vw;
-        color:#999;
+    .border_bottom{
+        font-style: normal!important;
+        font-weight:500!important;
+        border-bottom: 1px solid #999;
         margin:0;
+        padding:0;
     }
-    .lists > div > p > b {
+    .coloring_yellow{
+        font-style:normal!important;
+        font-weight:500!important;
+        color:#ff9900;
+        margin:0;
+        padding:0;
+    }
+    .coloring_red{
+        font-style:normal!important;
+        font-weight:500!important;
+        color:#ff6666;
+        margin:0;
+        padding:0;
+    }
+
+    .specialchars {
+        font-size: 2.3vw;
+        font-weight: 600;
+        padding: 0 0 0 0;
+        color: #999;
+        margin: 0;
+    }
+
+    .list_header {
         padding: 0 0 0 0.51vw;
         font-size: 1.94vw;
+        font-weight:600;
         color: #3399cc;
     }
 
     .lists .contents {
         padding: 0 0 0 2vw;
-        font-size: 1.15vw;
-        font-weight:500;
+        font-size: 1.132vw;
+        font-weight: 500;
         color: #999;
+        line-height:1.8vw;
     }
 
     .introduction {
