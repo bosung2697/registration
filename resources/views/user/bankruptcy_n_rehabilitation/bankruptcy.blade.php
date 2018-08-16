@@ -9,7 +9,7 @@
                 <img src="img/call.png" style="width:38%;">
             </div>
             <div class="lists">
-                <div id="1">
+                <div id="bank1">
                     <p class="header_p"><img src="img/listing_img.png"><b class="list_header">개인파산이란?</b></p>
                     <p class="contents"><strong class="specialchars">「</strong>개인 본인의 재산으로 모든 채무를 변제할 수 없는 상태에 빠진 경우,
                         채무의 정리를
@@ -19,7 +19,7 @@
                         <b class="border_bottom">파탄에 이르러 파산을 신청</b>하는 <b class="coloring_yellow">‘영업자파산’</b>을 모두
                         포함합니다.<strong class="specialchars">」</strong></p>
                 </div>
-                <div id="2">
+                <div id="bank2">
                     <p class="header_p"><img src="img/listing_img.png"><b class="list_header">개인파산 목적</b></p>
                     <p class="contents"><strong class="specialchars">「</strong>개인파산제도의 주된 목적은 모든 채권자가 평등하게 채권을 변제받도록
                         보장함과 동시에
@@ -30,7 +30,7 @@
                         개인파산을 신청하는 이유는 파산선고를 거쳐 면책결정까지 받음으로써 채무로부터
                         해방되기 위한 것입니다.<strong class="specialchars">」</strong></p>
                 </div>
-                <div id="3">
+                <div id="bank3">
                     <p class="header_p"><img src="img/listing_img.png"><b class="list_header">개인파산 신청자격</b><b class="video_url_page"><img src="img/video_url.png" class="video_desc"><b class="video_name">개인파산 신청할 때 자격요건</b></b></p>
                     <p class="contents"><strong class="specialchars">「</strong><b class="coloring_yellow">채권자, 채무자 및
                             채무자에 준하는 자</b>(법정대리인, 파산회사 대표자, 이사, 지배인)가
@@ -40,7 +40,7 @@
                         현재 자신의 재산보다 채무가 많아야 하며, <b class="coloring_red">채무액이 최소 1000만원 이상</b>이여야 하고,
                         최저생계비에 비해 소득이 적거나 없어야 합니다.<strong class="specialchars">」</strong></p>
                 </div>
-                <div id="4">
+                <div id="bank4">
                     <p class="header_p"><img src="img/listing_img.png"><b class="list_header">개인파산 신청서류</b><b class="video_url_page"><img src="img/video_url.png" class="video_desc"><b class="video_name">개인파산 신청 시 필요서류</b></b></p>
                     <p class="contents background_document" style="border: 0.1vw solid #999; border-radius: 1%; padding:3vh 2vw;">채권자별 부채증명서(가장 까다로운 서류)<br>
                         -부채증명서는 사무실에서 대행하여 발급해드리고 있습니다.<br>
@@ -73,7 +73,7 @@
                         <b style="font-size:0.81vw; font-style:normal; font-weight:600; color:#3399cc;">▶ 신청 서류가 있다면 법무사를 만나 상담 후 서류부분 작성과
                             추가서류를 안내 받으시면 됩니다.</b></p>
                 </div>
-                <div id="5">
+                <div id="bank5">
                     <p class="header_p"><img src="img/listing_img.png"><b class="list_header">개인파산</b><b class="coloring_red" style="font-size:1.94vw; font-weight:600!important;"> 장점</b></p>
                     <p class="contents">
                         <b class="alphabet_listing">a.</b> 개인회생은 장래의 소득으로 채무의 전부 또는 일부를 변제해야 하지만, 개인파산의 경우 에는 면책결정이 이루어지면 장래의 소득은 모두 채무자에게 귀속된다는 점이 파산의
@@ -82,7 +82,7 @@
                         <b class="alphabet_listing">c.</b> 압류 등 기존에 진행되었던 강제집행은 모두 해제됩니다.<br><br>
                         <b class="alphabet_listing">d.</b> 파산면책 후에는 모든 독촉이 중지됩니다. 또한 가족들에게는 전혀 불이익이 없습니다.</p>
                 </div>
-                <div id="6">
+                <div id="bank6">
                     <p class="header_p"><img src="img/listing_img.png"><b class="list_header">개인파산</b><b class="coloring_red" style="font-size:1.94vw; font-weight:600!important;"> 단점</b></p>
                     <p class="contents"><strong class="specialchars">「</strong>파산선고가 내려지면 불이익은 파산선고를 받은 자 본인에게 한정되고, 가족
                         등 다른 사람 에게는 아무런 <b class="coloring_yellow">불이익이 없습니다.</b><strong class="specialchars">」</strong><b class="video_url_page"><img src="img/video_url.png" class="video_desc"><b class="video_name">파산선고 받으면 불이익이 있을까?</b></b><br><br>
@@ -115,7 +115,7 @@
                         파산자의 신원증명업무를 관장하는 본적지 시·구·읍·면장에게 면책결정 확정사실이<br>
                         통지되어 파산선고를 받은 사실이 <b class="coloring_red">신원증명사항에서 삭제</b>됩니다.</p>
                 </div>
-                <div id="7">
+                <div id="bank7">
                     <p class="header_p"><img src="img/listing_img.png"><b class="list_header">개인파산 절차 안내</b></p>
                     <p class="contents"><strong class="specialchars">「</strong> 개인파산면책 절차는 파산<b class="coloring_yellow">절차와 면책 절차 2가지 절차로 진행</b>됩니다.<br>
                         <b class="coloring_red" style="font-size:0.77vw;">( 신청은 동시에 가능합니다.)</b><br>

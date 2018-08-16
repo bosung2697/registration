@@ -28,15 +28,9 @@
     <div class="selector {{preg_match('/\/intro/', $_SERVER['REQUEST_URI'])||
             preg_match('/\/intro.+/', $_SERVER['REQUEST_URI']) ? 'active':''}}"
     onclick="location.href='/intro'">인사말</div>
-    <div class="selector {{preg_match('/\/blog/', $_SERVER['REQUEST_URI'])||
-    preg_match('/\/blog.+/', $_SERVER['REQUEST_URI']) ? 'active' : ''}}"
-    onclick="location.href='/blog'">법무사 블로그</div>
-    <div class="selector {{preg_match('/\/law_story/', $_SERVER['REQUEST_URI'])||
-    preg_match('/\/law_story.+/', $_SERVER['REQUEST_URI']) ? 'active' : ''}}"
-    onclick="location.href='/law_story'">김영룡법무사<br>법률이야기</div>
-    <div class="selector {{preg_match('/\/intro_column/', $_SERVER['REQUEST_URI'])||
-    preg_match('/\/intro_column.+/', $_SERVER['REQUEST_URI']) ? 'active' : ''}}"
-    onclick="location.href='/intro_column'">김영룡법무사<br>소개 컬럼</div>
+    <div class="selector" onclick="window.open('https://blog.naver.com/gipapa93')">법무사 블로그</div>
+    <div><img src="/img/navertv.png" width="100%" style="cursor:pointer;" onclick="window.open('https://tv.naver.com/daullaw')"></div>
+    <div><img src="/img/columnpage.png" width="100%" style="cursor:pointer;" onclick="window.open('http://100photo.co.kr/1505')"></div>
     <div class="selector {{preg_match('/\/location/', $_SERVER['REQUEST_URI'])
     ||preg_match('/\/location.+/', $_SERVER['REQUEST_URI']) ? 'active' : ''}}"
     onclick="location.href='/location'">오시는 길</div>

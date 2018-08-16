@@ -9,13 +9,13 @@
                 <img src="img/call.png" style="width:38%;">
             </div>
             <div class="lists">
-                <div id="1">
+                <div id="rehab1">
                     <p class="header_p"><img src="img/listing_img.png"><b class="list_header">개인회생이란?</b></p>
                     <p class="contents"><strong class="specialchars">「</strong> 개인회생이란 간단히 말해 일정하고 정기적인 급여 또는 향후에 소득이 보장되어 있는<br>
                         경우에 3년 동안 (2018년 6월13일 법률 시행 확정)<b class="video_url_page"><img src="img/video_url.png" class="video_desc"><b class="video_name">개인회생 변제기간 5년->3년으로 단축 개정안</b></b><br>
                         법원에 일정한 변제금을 납부할 시 <b class="coloring_yellow">남은 채무를 탕감 받을 수 있는 제도</b>입니다.<strong class="specialchars">」</strong></p>
                 </div>
-                <div id="2">
+                <div id="rehab2">
                     <p class="header_p"><img src="img/listing_img.png"><b class="list_header">개인회생 관할법원 선택</b><b class="video_url_page"><img src="img/video_url.png" class="video_desc"><b class="video_name">개인회생 신청 관할법원 선택하기</b></b></p>
                     <p class="contents"><strong class="specialchars">「</strong>개인회생을 신청할 때 원칙적인 관할은 자신의 주소지 관할의 지방법원이<br>
                         본원이라 할 수 있습니다.<br>
@@ -25,7 +25,7 @@
                         지원이 많이 있어도 의정부지방법원에만 신청이 가능합니다.<br>
                         그런데 여기서 말씀드리는 주소지라는 것은 형식상의 <b class="coloring_yellow">주민등록 소재지 상의 주소가 아니라 실제로 거주하고 계신 곳</b>을 말합니다.<strong class="specialchars">」</strong></p>
                 </div>
-                <div id="3">
+                <div id="rehab3">
                     <p class="header_p"><img src="img/listing_img.png"><b class="list_header">개인회생 신청자격</b><b class="video_url_page"><img src="img/video_url.png" class="video_desc"><b class="video_name">개인회생 신청할 때 필요한 자격조건은?</b></b></p>
                     <p class="contents">
                         <strong class="specialchars">「</strong>개인회생을 신청할 때 기본적으로 필요한 자격 조건은 다음과 같습니다.<strong class="specialchars">」</strong><br><br>
@@ -45,7 +45,7 @@
                             있는지 궁금해 하시는데 이런 경우에는 면책 결정을 받으신 후 5년이 지나야<br>
                             가능합니다.<b class="video_url_page"><img src="img/video_url.png" class="video_desc"><b class="video_name">개인회생 재신청은 몇 번까지 가능할까?</b></b><strong class="specialchars">」</strong></p>
                 </div>
-                <div id="4">
+                <div id="rehab4">
                     <p class="header_p"><img src="img/listing_img.png"><b class="list_header">개인회생 신청서류</b><b class="video_url_page"><img src="img/video_url.png" class="video_desc"><b class="video_name">개인회생 신청 시 필요서류</b></b></p>
                     <p class="contents background_document" style="border: 0.1vw solid #999; border-radius: 1%; padding:3vh 2vw;">
                         <strong class="specialchars">「</strong>파산면책의 경우에는 소득이 없는 분들이 해당 되지만, 개인회생의 경우에는<br>
@@ -82,7 +82,7 @@
                             개인회생신청서를 검토 후 개인 파산면책과 동일하게 부족한 부분의 서류 제출과 가용소득(월 변제금액)의 조정 등을 합니다.</b><br>
                             <b class="video_url_page"><img src="img/video_url.png" class="video_desc"><b class="video_name">개인회생위원회 면담일이 궁금해요</b></b>
                 </div>
-                <div id="5">
+                <div id="rehab5">
                     <p class="header_p"><img src="img/listing_img.png"><b class="list_header">개인회생 채권자 집회 기일</b></p>
                     <p class="contents">
                         <strong class="specialchars">「</strong>개인회생 신청 후 전국의 모든 법원을 기준으로 가장 중요한 것이 &lsaquo;채권자 집회 기일&rsaquo; 출석입니다.<strong class="specialchars">」</strong><br><br>
@@ -103,7 +103,7 @@
                             혹시 너무 급한 사정이 생겨서 불참을 하게 된 경우, <b class="coloring_red">1번의 불참으로는 절차가 폐지되지 않지만 2번까지 불참을 하시게 되면 절차가 폐지</b>될 수도 있으니 숙지를 잘 하고 계시다가 꼭 참석하셔야 합니다.<br>
                     </p>
                 </div>
-                <div id="6">
+                <div id="rehab6">
                     <p class="header_p"><img src="img/listing_img.png"><b class="list_header">개인회생 절차안내</b><b class="video_url_page"><img src="img/video_url.png" class="video_desc"><b class="video_name">개인회생 절차와 주의사항</b></b></p>
                     <p class="contents">
                         <b class="alphabet_listing">a.</b> 개시결정<br><br>
