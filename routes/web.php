@@ -16,10 +16,6 @@ Route::get('/', function () {
 });
 /******************************************법무사 소개************************************************/
 Route::get('/intro','User\IntroController@intro');
-Route::get('/blog','User\IntroController@blog');
-Route::get('/law_story','User\IntroController@law_story');
-Route::get('/intro_column','User\IntroController@intro_column');
-Route::get('/location','User\IntroController@location');
 
 /******************************************개인파산/회생************************************************/
 Route::get('/bankruptcy','User\BankNRehab\BankNRehabController@bankruptcy');

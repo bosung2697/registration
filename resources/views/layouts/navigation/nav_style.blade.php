@@ -229,22 +229,21 @@
         padding: 0;
         border: none;
     }
-
     .navigation_bar {
         padding: 0 5vw 0 0;
         border-bottom: 2px solid #e8e8e8;
         width: 100%;
         height: 18.5vh;
-        background: url("img/profile.png");
-        background-repeat: no-repeat;
-        background-size: 38.7% 100%;
         margin: 0 0 2vh 0;
-
+        display: grid;
+        display: -ms-grid;
+        -ms-grid-columns: 3.57fr 0 6.43fr;
+        column-gap: 0;
+        grid-template-columns: 35.7% 64.3%
     }
 
     .navigation_bar_contents {
         width: 100%;
-        padding: 3.8vh 0;
 
     }
 
@@ -254,10 +253,11 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 1vh 1.8vw 1vh 34vw;
+        padding: 1vh 1.8vw 1vh 0;
         font-size: 1.35vw;
         font-weight: 500;
         cursor: pointer;
+        margin-top:2vh;
     }
 
     .navigation_bar_container > div:hover {

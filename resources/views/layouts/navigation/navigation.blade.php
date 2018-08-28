@@ -1,9 +1,10 @@
 <div class="navigation_bar">
-    <div class="navigation_bar_contents">
-        <div style="text-align: right; padding:0 1.68vw 2vh 31vw;">
+    <img src="img/profile.png" style="width:100%; height:100%; cursor:pointer;" class="grid-item" onclick="location.href='/home'">
+    <div class="navigation_bar_contents grid-item">
+        <div style="text-align: right; padding: 1vh 1.68vw 2vh 0;">
             <form action="{{url('home/search')}}" method="POST">
                 {!! csrf_field() !!}
-                <div style="margin: auto 0 auto auto; padding:0; border:0.2vw solid #3993e0; width: 27.2%; height:6.5vh">
+                <div style="margin: auto 0 auto auto; padding:0; border:0.2vw solid #3993e0; width: 28.2%; height:6.5vh">
                     <input name="search" class="home_search" type="search" placeholder="법률이야기" style="font-size:1.5vw;">
                     <button type="search" style="width: 2vw; height:3vh; padding:0; margin:0.5% 0.1%; border:none;">
                         <img width="100%" src="/img/no_image.jpg"

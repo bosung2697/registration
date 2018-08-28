@@ -4,7 +4,7 @@
         display: -ms-grid;
         column-gap: 0;
         grid-template-columns: 32.6% 67.4%;
-        -ms-grid-columns: 4.3fr 0 5.7fr;
+        -ms-grid-columns: 3.26fr 0px 6.74fr;
         width: 100%;
         margin: 1vh 0 2.5vh 0;
         color: white;

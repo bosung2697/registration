@@ -43,24 +43,24 @@
     preg_match('/\/bankruptcy.+/', $_SERVER['REQUEST_URI']) ? 'active' : ''}}"
     onclick="location.href='/bankruptcy'">개인파산</div>
     <div class="id_list">
-        <div><a href="bank1">개인파산이란?</a></div>
-        <div><a href="bank2">개인파산 목적</a></div>
-        <div><a href="bank3">개인파산 신청자격</a></div>
-        <div><a href="bank4">개인파산 신청서류</a></div>
-        <div><a href="bank5">개인파산 장점</a></div>
-        <div><a href="bank6">개인파산 단점</a></div>
-        <div><a href="bank7">개인파산 절차안내</a></div>
+        <div><a href="/bankruptcy#bank1">개인파산이란?</a></div>
+        <div><a href="/bankruptcy#bank2">개인파산 목적</a></div>
+        <div><a href="/bankruptcy#bank3">개인파산 신청자격</a></div>
+        <div><a href="/bankruptcy#bank4">개인파산 신청서류</a></div>
+        <div><a href="/bankruptcy#bank5">개인파산 장점</a></div>
+        <div><a href="/bankruptcy#bank6">개인파산 단점</a></div>
+        <div><a href="/bankruptcy#bank7">개인파산 절차안내</a></div>
     </div>
     <div class="selector {{preg_match('/\/rehabilitation/', $_SERVER['REQUEST_URI'])||
     preg_match('/\/rehabilitation.+/', $_SERVER['REQUEST_URI']) ? 'active' : ''}}"
     onclick="location.href='/rehabilitation'">개인회생</div>
     <div class="id_list">
-        <div><a href="#rehab1">개인회생이란?</a></div>
-        <div><a href="#rehab2">개인회생 목적</a></div>
-        <div><a href="#rehab3">개인회생 신청자격</a></div>
-        <div><a href="#rehab4">개인회생 신청서류</a></div>
-        <div><a href="rehab5">개인회생 장점</a></div>
-        <div><a href="rehab6">개인회생 단점</a></div>
-        <div><a href="rehab7">개인회생 절차안내</a></div>
+        <div><a href="/rehabilitation#rehab1">개인회생이란?</a></div>
+        <div><a href="/rehabilitation#rehab2">개인회생 목적</a></div>
+        <div><a href="/rehabilitation#rehab3">개인회생 신청자격</a></div>
+        <div><a href="/rehabilitation#rehab4">개인회생 신청서류</a></div>
+        <div><a href="/rehabilitation#rehab5">개인회생 장점</a></div>
+        <div><a href="/rehabilitation#rehab6">개인회생 단점</a></div>
+        <div><a href="/rehabilitation#rehab7">개인회생 절차안내</a></div>
     </div>
 </div>

@@ -1,8 +1,16 @@
 @extends('layouts.app')
 @section('content')
     <style>
+        .dot {
+            margin: 0 1vw;
+            height: 1vw;
+            width: 1vw;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+        }
         .main_right > div {
-            padding: 0 2.5vw 0 3vw
+            padding: 0 2.5vw 0 3vw;
         }
 
         .container1 {
@@ -60,8 +68,15 @@
     </style>
     <div class="container1">
         <div class="grid-item">
-            <div style="padding:1vh 1vw;">
-                <img src="img/banner1.jpg" style="border:none" width="100%">
+            <div style="padding:1vh 1vw; position:relative;">
+                <img id="banner1" class="banner" src="img/banner1.jpg" style="border:none; display:block;" width="100%">
+                <img id="banner2" class="banner" src="img/banner2.png" style="border:none; display:none;" width="100%">
+                <img id="banner3" class="banner" src="img/banner3.png" style="border:none; display:none;" width="100%">
+                <div style="width:90%; cursor:pointer; text-align:center;position:absolute; bottom:7.2%;">
+                    <span class="dot" onclick="ShowSlide('banner1')"></span>
+                    <span class="dot" onclick="ShowSlide('banner2')"></span>
+                    <span class="dot" onclick="ShowSlide('banner3')"></span>
+                </div>
             </div>
         </div>
         <div class="grid-item">
@@ -134,4 +149,14 @@
             </div>
         </div>
     </div>
+    <script>
+        function ShowSlide(ele){
+            var i;
+            var x = document.getElementsByClassName("banner");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            document.getElementById(ele).style.display = "block";
+        }
+    </script>
 @endsection
