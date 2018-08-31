@@ -15,12 +15,9 @@
         </div>
         <div class="navigation_bar_container">
             <div class="{{preg_match('/\/intro/',$_SERVER['REQUEST_URI'])||preg_match('/\/intro.+/', $_SERVER['REQUEST_URI'])||
-             preg_match('/\/blog/',$_SERVER['REQUEST_URI'])||preg_match('/\/blog.+/', $_SERVER['REQUEST_URI'])||
-             preg_match('/\/law_story/',$_SERVER['REQUEST_URI'])||preg_match('/\/law_story.+/', $_SERVER['REQUEST_URI'])||
-             preg_match('/\/intro_column/',$_SERVER['REQUEST_URI'])||preg_match('/\/intro_column.+/', $_SERVER['REQUEST_URI'])||
              preg_match('/\/location/',$_SERVER['REQUEST_URI'])||preg_match('/\/location.+/', $_SERVER['REQUEST_URI'])? 'active_nav' : ''}}"
                  onclick="location.href='/intro'">법무사 소개</div>
-            <div>온라인등기대행<img src="img/hot.png"></div>
+            <div class="{{preg_match('/\/online_reg/',$_SERVER['REQUEST_URI'])||preg_match('/\/online_reg.+/', $_SERVER['REQUEST_URI'])? 'active_nav' : ''}}" onclick="location.href='/online_reg'">온라인등기대행<img src="img/hot.png"></div>
             <div class="{{preg_match('/\/bankruptcy/',$_SERVER['REQUEST_URI'])||preg_match('/\/bankruptcy.+/', $_SERVER['REQUEST_URI'])||
             preg_match('/\/rehabilitation/',$_SERVER['REQUEST_URI'])||preg_match('/\/rehabilitation.+/', $_SERVER['REQUEST_URI'])? 'active_nav' : ''}}"
                  onclick="location.href='/bankruptcy'">개인파산/ 회생</div>

@@ -21,6 +21,9 @@ Route::get('/intro','User\IntroController@intro');
 Route::get('/bankruptcy','User\BankNRehab\BankNRehabController@bankruptcy');
 Route::get('/rehabilitation','User\BankNRehab\BankNRehabController@rehabilitation');
 
+/******************************************온라인등기대행************************************************/
+Route::get('/online_reg','User\Registration\RegistrationController@registration');
+
 /******************************************자주하는 질문************************************************/
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/faq_registration', 'User\FAQ\FAQ_RegistrationController@index');
