@@ -7,7 +7,7 @@
       <img src="img/bg2.png" style="width:100%;">
    </div>
    <div style="width:100%;">
-      <img src="img/bg3.png" style="width:100%;">
+      <img src="img/bg_3.png" style="width:100%;">
    </div>
    <div style="width:100%;">
       <img src="img/bg4.png" style="width:100%;">
